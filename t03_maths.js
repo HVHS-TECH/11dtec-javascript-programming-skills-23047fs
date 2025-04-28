@@ -4,8 +4,8 @@ Name of task: Intro - Finley - 29/04/25
 console.log("Running t03_maths.js");
 
 //Variables
-let tester1 = 3;
-let tester2 = 6;
+let currentDATE = 2025;
+let userAGE = 20;
 
 
 //Arrays
@@ -14,7 +14,8 @@ let tester2 = 6;
 /********************************
 Main code
 ********************************/
-console.log(tester1 - tester2);
+console.log("You were born in " + (currentDATE - userAGE));
+console.log("In ten years you will be " + (userAGE + 10));
 
 
 /********************************
