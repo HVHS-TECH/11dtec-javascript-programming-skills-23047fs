@@ -6,9 +6,9 @@ Date: 29/04/35
 console.log("Running t05_alerts_prompts.js");
 
 //Variables
-let userNAME = "null"
-let userAGE = "null"
-let pocketMONEY = "null"
+let userNAME = 0
+let userAGE = 0
+let pocketMONEY = 0
 let currentDATE = 2025;
 
 //Arrays
@@ -24,7 +24,8 @@ pocketMONEY = prompt("How much pocket money do you have?");
 userAge = Number(userAGE);
 pocketMONEY = Number(pocketMONEY);
 alert("You were born in " + (currentDATE - userAGE));
-alert("In ten years you will be " + (userAGE + 10));
+var tenyears = userAGE + 10;
+alert("In ten years you will be " + tenyears);
 alert("You have $" + pocketMONEY);
 alert("Half your pocket money would be " + (pocketMONEY / 2));
 
