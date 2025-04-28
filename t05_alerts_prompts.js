@@ -7,7 +7,7 @@ console.log("Running t05_alerts_prompts.js");
 let userNAME = "null"
 let userAGE = "null"
 let pocketMONEY = "null"
-
+let currentDATE = 2025;
 
 //Arrays
 
@@ -16,9 +16,13 @@ let pocketMONEY = "null"
 Main code
 ********************************/
 alert("Welcome to this Program.");
-userNAME = prompt("What is your name?")
-userAGE = prompt("Welcome " + userNAME + " what is your age")
-pocketMONEY = prompt("How much pocket money do you have?")
+userNAME = prompt("What is your name?");
+userAGE = prompt("Welcome " + userNAME + " what is your age");
+pocketMONEY = prompt("How much pocket money do you have?");
+alert("You were born in " + (currentDATE - userAGE));
+alert("In ten years you will be " + (userAGE + 10));
+alert("You have $" + pocketMONEY);
+
 
 /********************************
 Functions
