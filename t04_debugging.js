@@ -1,3 +1,6 @@
+/********************************
+Name of task: Intro - Finley - 29/04/25
+********************************/
 console.log("Task 4 - Debugging");
 
 // Set up the size of the page.
