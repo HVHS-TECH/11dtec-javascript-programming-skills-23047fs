@@ -1,5 +1,7 @@
 /********************************
-Name of task: Intro - Finley - 29/04/25
+Name of task: Alerts
+Author: Finley
+Date: 29/04/35
 ********************************/
 console.log("Running t05_alerts_prompts.js");
 
@@ -22,6 +24,7 @@ pocketMONEY = prompt("How much pocket money do you have?");
 alert("You were born in " + (currentDATE - userAGE));
 alert("In ten years you will be " + (userAGE + 10));
 alert("You have $" + pocketMONEY);
+alert("Half your pocket money would be " + (pocketMONEY / 2));
 
 
 /********************************

@@ -1,5 +1,7 @@
 /********************************
-Name of task: Intro - Finley - 29/04/25
+Name of task: Debugging
+Author: Finley
+Date: 29/04/35
 ********************************/
 console.log("Task 4 - Debugging");
 

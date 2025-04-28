@@ -1,5 +1,7 @@
 /********************************
-Name of task: Intro - Finley - 29/04/25
+Name of task: Intro
+Author: Finley
+Date: 29/04/35
 ********************************/
 console.log("Running t01_introduction.js");
 
