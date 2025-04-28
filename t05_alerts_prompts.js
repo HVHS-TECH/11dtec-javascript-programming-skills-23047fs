@@ -21,6 +21,8 @@ alert("Welcome to this Program.");
 userNAME = prompt("What is your name?");
 userAGE = prompt("Welcome " + userNAME + " what is your age");
 pocketMONEY = prompt("How much pocket money do you have?");
+userAge = Number(userAGE);
+pocketMONEY = Number(pocketMONEY);
 alert("You were born in " + (currentDATE - userAGE));
 alert("In ten years you will be " + (userAGE + 10));
 alert("You have $" + pocketMONEY);
