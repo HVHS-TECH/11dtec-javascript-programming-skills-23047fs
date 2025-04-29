@@ -11,7 +11,7 @@ let userNAME = 0;
 
 //Arrays
 let userNUMBER = [0, 0, 0, 0, 0];
-let userNUMEBRcount = 0
+let userNUMBERcount = 0
 
 /********************************
 Main code
@@ -19,10 +19,12 @@ Main code
 alert("Welcome to this Program.");
 userNAME = prompt("What is your name?");
 for (count = 0; count < 5; count++){
-    userNUMBER[userNUMEBRcount] = prompt("Welcome " + userNAME + " choose any number");
-    userNUMEBRcount += 1
+    userNUMBER[userNUMBERcount] = prompt("Welcome " + userNAME + " choose any number");
+    userNUMBERcount += 1
 }
+userNUMBER[0]
 
+alert(userNUMBER[0] + userNUMBER[1] + userNUMBER[2] + userNUMBER[3] + userNUMBER[4])
 
 /********************************
 Functions
