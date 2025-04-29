@@ -29,11 +29,10 @@ alert("You were born in " + (currentDATE - userAGE));
 alert("In ten years you will be " + (10 + userAGE));
 alert("You have $" + pocketMONEY);
 alert("Half your pocket money would be $" + (pocketMONEY / 2));
-alert(chocolate[userCHOCOLATE]);
 if (pocketMONEY >= 4){
-    alert("You think" + chocolate[userCHOCOLATE] + " and you can afford a bar of chocolate :)")
+    alert("You think " + chocolate[userCHOCOLATE] + " and you can afford a bar of chocolate :)")
 } else {
-    alert("You think" + chocolate[userCHOCOLATE] + " and you can't afford a bar of chocolate :(")
+    alert("You think " + chocolate[userCHOCOLATE] + " and you can't afford a bar of chocolate :(")
 }
 
 
