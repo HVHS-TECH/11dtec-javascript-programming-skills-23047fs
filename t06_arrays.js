@@ -3,7 +3,7 @@ Name of task: Arrays
 Author: Finley
 Date: 29/04/35
 ********************************/
-console.log("Running t056_arrays.js");
+console.log("Running t06_arrays.js");
 
 //Variables
 let userNAME = 0
