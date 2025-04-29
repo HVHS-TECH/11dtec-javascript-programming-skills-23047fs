@@ -30,6 +30,9 @@ alert("In ten years you will be " + (10 + userAGE));
 alert("You have $" + pocketMONEY);
 alert("Half your pocket money would be $" + (pocketMONEY / 2));
 alert(chocolate[userCHOCOLATE]);
+if pocketMONEY{
+
+}
 
 
 /********************************
