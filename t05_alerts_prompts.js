@@ -24,8 +24,7 @@ pocketMONEY = prompt("How much pocket money do you have?");
 userAge = Number(userAGE);
 pocketMONEY = Number(pocketMONEY);
 alert("You were born in " + (currentDATE - userAGE));
-var tenyears = userAGE + 10;
-alert("In ten years you will be " + tenyears);
+alert("In ten years you will be " + userAGE);
 alert("You have $" + pocketMONEY);
 alert("Half your pocket money would be " + (pocketMONEY / 2));
 
