@@ -3,11 +3,13 @@ Name of task: Arrays
 Author: Finley
 Date: 29/04/35
 ********************************/
-console.log("Running t06_arrays.js");
+console.log("Running t056_arrays.js");
 
 //Variables
-
-
+let userNAME = 0
+let userAGE = 0
+let pocketMONEY = 0
+let currentDATE = 2025;
 
 //Arrays
 
@@ -15,7 +17,16 @@ console.log("Running t06_arrays.js");
 /********************************
 Main code
 ********************************/
-
+alert("Welcome to this Program.");
+userNAME = prompt("What is your name?");
+userAGE = prompt("Welcome " + userNAME + " what is your age");
+pocketMONEY = prompt("How much pocket money do you have?");
+userAGE = Number(userAGE);
+pocketMONEY = Number(pocketMONEY);
+alert("You were born in " + (currentDATE - userAGE));
+alert("In ten years you will be " + (10 + userAGE));
+alert("You have $" + pocketMONEY);
+alert("Half your pocket money would be $" + (pocketMONEY / 2));
 
 
 /********************************
