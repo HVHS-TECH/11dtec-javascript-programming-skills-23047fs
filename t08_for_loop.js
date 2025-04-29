@@ -22,9 +22,14 @@ for (count = 0; count < 5; count++){
     userNUMBER[userNUMBERcount] = prompt("Welcome " + userNAME + " choose any number");
     userNUMBERcount += 1
 }
-userNUMBER[0]
 
-alert(userNUMBER[0] + userNUMBER[1] + userNUMBER[2] + userNUMBER[3] + userNUMBER[4])
+userNUMBER[0] = Number(userNUMBER[0])
+userNUMBER[1] = Number(userNUMBER[1])
+userNUMBER[2] = Number(userNUMBER[2])
+userNUMBER[3] = Number(userNUMBER[3])
+userNUMBER[4] = Number(userNUMBER[4])
+
+alert(userNUMBER[0] + userNUMBER[1] + userNUMBER[2] + userNUMBER[3] + userNUMBER[4]);
 
 /********************************
 Functions
