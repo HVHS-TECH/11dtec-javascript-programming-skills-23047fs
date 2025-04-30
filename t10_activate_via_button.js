@@ -25,10 +25,10 @@ let chocolate = ["You loath chocolate", "Chocolate is meh", "Chocolate is pretty
 Main code
 ********************************/
 function start() {
-    askUSERname = askUSERname()
-    askUSERage = askUSERage()
-    askUSERmoney = askUSERmoney()
-    tellUSERinfo = tellUSERinfo()
+    askUSERname = askUSERname();
+    askUSERage = askUSERage();
+    askUSERmoney = askUSERmoney();
+    tellUSERinfo = tellUSERinfo();
 }
 
 
