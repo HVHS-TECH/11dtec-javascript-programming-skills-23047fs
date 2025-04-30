@@ -3,7 +3,7 @@ Name of task: Functions
 Author: Finley
 Date: 30/04/35
 ********************************/
-console.log("Running t07_if.js");
+console.log("Running t09_functions.js");
 
 //Variables
 let userNAME = 0
@@ -21,17 +21,7 @@ Main code
 askUSERname()
 askUSERage()
 askUSERmoney()
-userAGE = Number(userAGE);
-pocketMONEY = Number(pocketMONEY);
-alert("You were born in " + (currentDATE - userAGE));
-alert("In ten years you will be " + (10 + userAGE));
-alert("You have $" + pocketMONEY);
-alert("Half your pocket money would be $" + (pocketMONEY / 2));
-if (pocketMONEY >= 4){
-    alert("You think " + chocolate[userCHOCOLATE] + " and you can afford a bar of chocolate :)")
-} else {
-    alert("You think " + chocolate[userCHOCOLATE] + " and you can't afford a bar of chocolate :(")
-}
+tellUSERinfo()
 
 
 /********************************
@@ -47,4 +37,17 @@ function askUSERage() {
 function askUSERmoney() {
     pocketMONEY = prompt("How much pocket money do you have?");
     userCHOCOLATE = prompt("How much do you love chocolate from 0-3")
+}
+function tellUSERinfo() {
+    userAGE = Number(userAGE);
+    pocketMONEY = Number(pocketMONEY);
+    alert("You were born in " + (currentDATE - userAGE));
+    alert("In ten years you will be " + (10 + userAGE));
+    alert("You have $" + pocketMONEY);
+    alert("Half your pocket money would be $" + (pocketMONEY / 2));
+    if (pocketMONEY >= 4){
+        alert("You think " + chocolate[userCHOCOLATE] + " and you can afford a bar of chocolate :)")
+    } else {
+        alert("You think " + chocolate[userCHOCOLATE] + " and you can't afford a bar of chocolate :(")
+    }
 }

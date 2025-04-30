@@ -3,7 +3,7 @@ Name of task: For loops
 Author: Finley
 Date: 29/04/35
 ********************************/
-console.log("Running t07_if.js");
+console.log("Running t08_for_loop.js");
 
 //Variables
 let userNAME = 0;
