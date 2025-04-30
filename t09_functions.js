@@ -18,11 +18,9 @@ let chocolate = ["You loath chocolate", "Chocolate is meh", "Chocolate is pretty
 /********************************
 Main code
 ********************************/
-alert("Welcome to this Program.");
-userNAME = prompt("What is your name?");
-userAGE = prompt("Welcome " + userNAME + " what is your age");
-pocketMONEY = prompt("How much pocket money do you have?");
-userCHOCOLATE = prompt("How much do you love chocolate from 0-3")
+askUSERname()
+askUSERage()
+askUSERmoney()
 userAGE = Number(userAGE);
 pocketMONEY = Number(pocketMONEY);
 alert("You were born in " + (currentDATE - userAGE));
@@ -39,3 +37,14 @@ if (pocketMONEY >= 4){
 /********************************
 Functions
 ********************************/
+function askUSERname() {
+    alert("Welcome to this Program.");
+    userNAME = prompt("What is your name?");
+}
+function askUSERage() {
+    userAGE = prompt("Welcome " + userNAME + " what is your age");
+}
+function askUSERmoney() {
+    pocketMONEY = prompt("How much pocket money do you have?");
+    userCHOCOLATE = prompt("How much do you love chocolate from 0-3")
+}
