@@ -11,10 +11,6 @@ let userAGE = 0
 let pocketMONEY = 0
 let currentDATE = 2025;
 let userCHOCOLATE = 0
-let askUSERname
-let askUSERage
-let askUSERmoney
-let tellUSERinfo
 
 
 //Arrays
@@ -24,17 +20,18 @@ let chocolate = ["You loath chocolate", "Chocolate is meh", "Chocolate is pretty
 /********************************
 Main code
 ********************************/
-function start() {
-    askUSERname = askUSERname();
-    askUSERage = askUSERage();
-    askUSERmoney = askUSERmoney();
-    tellUSERinfo = tellUSERinfo();
-}
+start();
 
 
 /********************************
 Functions
 ********************************/
+function start() {
+    askUSERname();
+    askUSERage();
+    askUSERmoney();
+    tellUSERinfo();
+}
 function askUSERname() {
     alert("Welcome to this Program.");
     userNAME = prompt("What is your name?");
