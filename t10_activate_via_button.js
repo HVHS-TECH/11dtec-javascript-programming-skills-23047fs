@@ -11,17 +11,25 @@ let userAGE = 0
 let pocketMONEY = 0
 let currentDATE = 2025;
 let userCHOCOLATE = 0
+let askUSERname
+let askUSERage
+let askUSERmoney
+let tellUSERinfo
+
 
 //Arrays
 let chocolate = ["You loath chocolate", "Chocolate is meh", "Chocolate is pretty good", "Chocolate is the best thing EVER!!!"]
 
+
 /********************************
 Main code
 ********************************/
-askUSERname()
-askUSERage()
-askUSERmoney()
-tellUSERinfo()
+function start() {
+    askUSERname = askUSERname()
+    askUSERage = askUSERage()
+    askUSERmoney = askUSERmoney()
+    tellUSERinfo = tellUSERinfo()
+}
 
 
 /********************************
