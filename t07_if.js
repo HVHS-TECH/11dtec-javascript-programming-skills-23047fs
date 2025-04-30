@@ -1,5 +1,5 @@
 /********************************
-Name of task: For Loops
+Name of task: Ifs
 Author: Finley
 Date: 30/04/35
 ********************************/
