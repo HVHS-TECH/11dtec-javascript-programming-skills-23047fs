@@ -20,7 +20,6 @@ let chocolate = ["You loath chocolate", "Chocolate is meh", "Chocolate is pretty
 /********************************
 Main code
 ********************************/
-start();
 
 
 /********************************
