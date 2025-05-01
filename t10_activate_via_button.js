@@ -1,7 +1,7 @@
 /********************************
 Name of task: Buttons
 Author: Finley
-Date: 30/04/35
+Date: 01/05/35
 ********************************/
 console.log("Running t10_activate_via_button.js");
 
@@ -45,7 +45,7 @@ function askUSERmoney() {
 function tellUSERinfo() {
     userAGE = Number(userAGE);
     pocketMONEY = Number(pocketMONEY);
-    alert("You were born in " + (currentDATE - userAGE));
+    alert("You are " + userAGE + ". You were born in " + (currentDATE - userAGE));
     alert("In ten years you will be " + (10 + userAGE));
     alert("You have $" + pocketMONEY);
     alert("Half your pocket money would be $" + (pocketMONEY / 2));
