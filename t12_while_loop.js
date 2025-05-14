@@ -23,7 +23,11 @@ alert("Sad :(");
 while (isTRUE == true){
     if (is == true){
         is = prompt("true or false");
-        is = Boolean(is)
+        if (is == "false") {
+            is = Boolean(false);
+        } else {
+            is = Boolean(true);
+        }
     } else {
         isTRUE = false;
     }
