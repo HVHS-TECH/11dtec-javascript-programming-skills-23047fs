@@ -6,15 +6,16 @@ Date: 14/05/35
 console.log("Running t10_activate_via_button.js");
 
 //Variables
-let userNAME = 0
-let userAGE = 0
-let pocketMONEY = 0
+let userNAME = 0;
+let userNAMEinvalid = true;
+let userAGE = 0;
+let pocketMONEY = 0;
 let currentDATE = 2025;
-let userCHOCOLATE = 0
+let userCHOCOLATE = 0;
 
 
 //Arrays
-let chocolate = ["You loath chocolate", "Chocolate is meh", "Chocolate is pretty good", "Chocolate is the best thing EVER!!!"]
+let chocolate = ["You loath chocolate", "Chocolate is meh", "Chocolate is pretty good", "Chocolate is the best thing EVER!!!"];
 
 
 /********************************
@@ -34,6 +35,13 @@ function start() {
 function askUSERname() {
     alert("Welcome to this Program.");
     userNAME = prompt("What is your name?");
+    while (userNAMEinvalid == true) {
+        if (!isNaN(userNAME)) {
+            userNAME = prompt("What is your name?");
+        } else {
+            userNAMEinvalid = false;
+        }
+    }
 }
 function askUSERage() {
     userAGE = prompt("Welcome " + userNAME + " what is your age");
