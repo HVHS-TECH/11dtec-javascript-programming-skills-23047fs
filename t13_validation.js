@@ -9,6 +9,7 @@ console.log("Running t10_activate_via_button.js");
 let userNAME = 0;
 let userNAMEinvalid = true;
 let userAGE = 0;
+let userAGEinvalid = true;
 let pocketMONEY = 0;
 let currentDATE = 2025;
 let userCHOCOLATE = 0;
@@ -45,6 +46,13 @@ function askUSERname() {
 }
 function askUSERage() {
     userAGE = prompt("Welcome " + userNAME + " what is your age");
+    while (userAGEinvalid == true) {
+        if (isNaN(userAGE)) {
+            userNAME = prompt("What is your age?");
+        } else {
+            userAGEinvalid = false;
+        }
+    }
 }
 function askUSERmoney() {
     pocketMONEY = prompt("How much pocket money do you have?");
