@@ -3,7 +3,7 @@ Name of task: Validation
 Author: Finley
 Date: 14/05/35
 ********************************/
-console.log("Running t10_activate_via_button.js");
+console.log("Running t13_validation.js");
 
 //Variables
 let userNAME = 0;
@@ -11,8 +11,10 @@ let userNAMEinvalid = true;
 let userAGE = 0;
 let userAGEinvalid = true;
 let pocketMONEY = 0;
+let pocketMONEYinvalid = true;
 let currentDATE = 2025;
 let userCHOCOLATE = 0;
+let userCHOCOLATEinvalid = true;
 
 
 //Arrays
@@ -55,8 +57,20 @@ function askUSERage() {
     }
 }
 function askUSERmoney() {
-    pocketMONEY = prompt("How much pocket money do you have?");
-    userCHOCOLATE = prompt("How much do you love chocolate from 0-3")
+    while (pocketMONEYinvalid == true) {
+        if (isNaN(pocketMONEY)) {
+            pocketMONEY = prompt("How much pocket money do you have?");
+        } else {
+            pocketMONEYinvalid = false;
+        }
+    }
+    while (userCHOCOLATEinvalid == true) {
+        if (isNaN(userCHOCOLATE)) {
+            userCHOCOLATE = prompt("How much do you love chocolate from 0-3")
+        } else {
+            userCHOCOLATEinvalid = false;
+        }
+    }
 }
 function tellUSERinfo() {
     userAGE = Number(userAGE);
