@@ -51,6 +51,9 @@ function askUSERname() {
         } else {
             userNAMEinvalid = false;
         }
+        if (userNAME == null || userNAME == "" || userNAME == " ") {
+            return;
+        }
     }
 }
 function askUSERage() {            
